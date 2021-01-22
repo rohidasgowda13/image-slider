@@ -1,0 +1,54 @@
+.box1{
+    height: 100vh;
+    background-color: rgb(57, 87, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .section1{
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(37, 236, 54);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.box1 .section1:hover{
+    color:black;
+    background-color: white;
+    border: 1px solid rgb(230, 24, 202);
+}
+
+.box1 a{
+    text-decoration: none;
+}
+
+.box2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 216, 151);
+}
+
+.box2 .section2{
+    margin: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(37, 236, 54);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.box2 a{
+    text-decoration: none;
+}
+
+.box2 .section2:hover{
+    color:black;
+    background-color: white;
+    border: 1px solid rgb(230, 24, 202);
+}
